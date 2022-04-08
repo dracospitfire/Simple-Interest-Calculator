@@ -2,7 +2,7 @@ function compute() {
     //create references to the input elements we wish to validate
     var principal = document.getElementById("principal").value;
     //Check if principal field is empty
-    if(principal == "" || principal < 0) {
+    if(principal == "" || principal <= 0) {
           alert("Please enter prinicpal amount over $0");
           principal.focus();
           return;
