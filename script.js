@@ -20,7 +20,7 @@ function compute() {
         "If you deposit " + high + "$"+principal + light +
         "at an interest rate of " + high + rate+"%"+ light +
         "You will receive an amount of " + high + "$"+interest + light +
-        "in the year " + year + ".";
+        "in the year " + high + year+"."+ light;
 }
 function updateRate() {
     var rate_val = document.getElementById("rate").value;
