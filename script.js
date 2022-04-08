@@ -12,7 +12,7 @@ function compute() {
     var years = document.getElementById("years").value;
     var interest = principal * years * rate /100;
     var year = new Date().getFullYear() + parseInt(years);
-    //display results
+    //display results format per assignement
     var result_display = document.getElementById("result");
     result_display.innerText = "\n" +
         "If you deposit $" + principal + "\n" +
