@@ -33,3 +33,6 @@ main {
     font-weight: normal;
     text-align: center;
 }
+.highlight {
+    background-color: yellow;
+}

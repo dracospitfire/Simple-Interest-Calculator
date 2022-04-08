@@ -14,11 +14,13 @@ function compute() {
     var year = new Date().getFullYear() + parseInt(years);
     //display results format per assignement
     var result_display = document.getElementById("result");
-    result_display.innerText = "\n" +
-        "If you deposit $" + principal + "\n" +
-        "at an interest rate of " + rate + "%\n" +
-        "You will receive an amount of $" + interest + "\n" +
-        "in the year " + year;
+    var high = "<span class='highlight'>"
+    var light = "</span><br>"
+    result_display.innerHTML =
+        "If you deposit " + high + "$"+principal + light +
+        "at an interest rate of " + high + rate+"%"+ light +
+        "You will receive an amount of " + high + "$"+interest + light +
+        "in the year " + year + ".";
 }
 function updateRate() {
     var rate_val = document.getElementById("rate").value;
