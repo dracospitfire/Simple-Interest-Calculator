@@ -1,4 +1,41 @@
-body {background-color:tan;}
-h1{color:green;}
-
-
+main {
+    background-color:black;
+    font-family:Arial;
+    color:black;
+}
+body{
+    background-color: black;
+}
+h1 {
+    color:grey;
+    text-align: center;
+    font-size: xx-large;
+}
+h2 {
+    color: black;
+    display: block;
+    font-size: 18px;
+    font-weight:normal;
+}
+p {
+    color:white;
+    text-align: center;
+  }
+.maindiv {
+    background-color: white;
+    color: black;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 25px;
+}
+.data {
+    background-color: white;
+    color: black;
+    max-width: 300px;
+    margin: auto;
+    display:block;
+}
+.get_rich {
+    font-size:large;
+}
